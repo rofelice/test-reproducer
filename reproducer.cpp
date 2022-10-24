@@ -46,5 +46,6 @@ bool ClientManager::Client::handleNotifStream()
     return true;
 }
 
-void main(void){
+int main(void){
+    return 0;
 }
