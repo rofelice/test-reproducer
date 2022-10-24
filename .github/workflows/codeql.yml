@@ -68,7 +68,8 @@ jobs:
     #   echo "Run, Build Application using script"
     #   g++ -c -std=c++17 reproducer.cpp
     #   ./location_of_script_within_repo/buildscript.sh
-    - run: make all    
+    - name: make all
+      run: make all    
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v2
